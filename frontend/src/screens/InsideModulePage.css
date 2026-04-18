@@ -1,0 +1,23 @@
+.inside-page-container {
+    max-width: 100%;
+    margin-left: var(--spacing-lg);
+    margin-right: var(--spacing-lg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding-top: var(--spacing-md);
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+}
+
+.assessment-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: var(--spacing-md);
+
+}
+
+.assessment-list-container .assessment-card {
+    width: auto;
+    margin: 0 0 var(--spacing-md) 0;
+}

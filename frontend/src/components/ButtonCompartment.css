@@ -1,0 +1,61 @@
+.button-compartment {
+    display: flex;
+    padding: 15px var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    background-color: var(--light-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.button-compartment.dashboard-mode {
+    justify-content: flex-end;
+    gap: var(--spacing-md);
+}
+
+.button-compartment.detail-mode {
+    justify-content: flex-start;
+}
+
+.action-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color var(--transition-speed);
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+    margin-right: var(--spacing-lg);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--success-color);
+    color: var(--white);
+}
+
+.btn-secondary:hover {
+    background-color: #218838;
+}
+
+.btn-back {
+    background-color: var(--white);
+    border: 1px solid #ccc;
+    color: var(--text-medium);
+}
+
+.btn-back:hover {
+    background-color: #e2e6ea;
+}
+
+.dashboard-actions {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-left: auto;
+}

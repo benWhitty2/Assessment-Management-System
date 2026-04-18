@@ -1,0 +1,28 @@
+.dashboard-container {
+    padding: var(--spacing-lg);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-title {
+    margin-bottom: var(--spacing-sm);
+    color: var(--text-medium);
+}
+
+.page-subtitle {
+    margin-bottom: var(--spacing-xl);
+    color: var(--text-light);
+}
+
+.modules-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    .modules-grid {
+        justify-content: center;
+    }
+}

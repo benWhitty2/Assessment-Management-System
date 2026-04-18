@@ -1,0 +1,54 @@
+.assessment-card {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+    width: 300px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.assessment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.assessment-type {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.assessment-people {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin: 0;
+    font-style: italic;
+}
+
+.assessment-stage-container {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stage-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-lighter);
+    text-transform: uppercase;
+}
+
+.stage-value {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    background-color: #e7f1ff;
+    padding: 4px 10px;
+    border-radius: 12px;
+}
