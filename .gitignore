@@ -1,0 +1,4 @@
+.DS_Store
+/.idea"**/target/"
+/group_app/src/main/resources/certs/**
+/.idea
